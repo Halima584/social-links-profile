@@ -2,14 +2,13 @@ body {
     background-color:  hsl(0, 0%, 8%);
     font-family:Arial, Helvetica, sans-serif;
 }
-header {
+.section {
     background-color: hsl(0, 0%, 12%);
     text-align: center;
     margin: 40px auto;
     padding: 30px 40px;
     max-width: 300px;
     border-radius: 15px;
-    min-height: 3;
 }
 h1, p {
     margin-bottom: 8px;
@@ -28,6 +27,10 @@ p {
     font-size: 13px;
     color: rgb(189, 179, 179);
     margin-top: 30px;
+}
+nav {
+    display: flex;
+    flex-direction: column;
 }
 button {
     margin: 10px auto;
